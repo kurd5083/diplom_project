@@ -1,0 +1,137 @@
+body {
+    color: #424242;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+.header {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+    width: 100%;
+    padding: 10px 40px;
+    margin: auto;
+    padding-bottom: 0;
+}
+
+.block {
+    position: absolute;
+    width: 100%;
+    top: 90px;
+    height: 3px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 1px 3px;
+}
+
+.menu-list {
+    display: flex;
+    align-items: center;
+}
+
+.menu-list li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.menu-list a {
+    color: #424242;
+    text-decoration: none;
+}
+
+.btn-entrance {
+    margin-left: 50px;
+    box-sizing: border-box;
+    background-color: #f05f50;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    font-size: 18px;
+    width: 120px;
+}
+
+.form-create {
+    box-sizing: border-box;
+    max-width: 1300px;
+    width: 100%;
+    padding: 0px 40px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.form-question {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 1300px;
+    width: 100%;
+    padding: 0 40px;
+    margin: 0 auto;
+}
+
+
+.btn{
+    box-sizing: border-box;
+    height: 50px;
+    outline: none;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    background-color: #f05f50;
+    width: 200px;
+    font-size: 16px;
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.question-input {
+    box-sizing: border-box;
+    height: 50px;
+    outline: none;
+    border: 1px solid #424242;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.question-input:focus {
+    border-bottom: 4px solid rgb(0, 216, 0) ; 
+}
+
+.question-input:focus::-webkit-input-placeholder {
+    opacity: 1;
+    transition: 1s;
+    color: transparent;
+}
+.time {
+    height: 30px;
+    outline: none;
+    border: 1px solid #424242;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 50px;
+    text-align: center;
+    padding: 0 10px;
+}
+.checkbox {
+    margin-left: 20px;
+    width: 20px;
+}
+
+.form-block {
+    width: 100%;
+    display: flex;
+}

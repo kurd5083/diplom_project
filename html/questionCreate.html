@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/questionCreate.css">
+</head>
+
+<body>
+    <header class="header">
+        <img src="" alt="logo">
+        <ul class="menu-list">
+            <li><a href="../index.html">Главное меню</a></li>
+            <li><a href="">Создать тест</a></li>
+            <li><a href="./passTest.html">Пройти тест</a></li>
+            <a href="../authorization.php"><button class="btn-entrance">Вход</button></a>
+        </ul>
+    </header>
+    <div class="block"></div>
+    <main>
+        <div class="form-create">
+            <div class="create">
+                <h1>Создать тест</h1>
+                <input class="question-input inputName" type="text" placeholder="Введите имя теста">
+                <label>Время прохождения теста:
+                    <input class="time slider" type="text" placeholder="мин">
+                </label>
+            </div>
+            <button class="btn-save btn" name="create-table">Создать тест</button>
+        </div>
+        <div class="form-question">
+            <form name="fi" class="question">
+                <h1 class="heading">Вопрос 1</h1>
+                <input name="question" placeholder="Текст вопроса" class="question-input">
+                <div class="form-block">
+                    <input name="answerOne" placeholder="Ответ 1" class="question-input">
+                    <input type="checkbox" id="checkbox-one" class="checkbox" />
+                    <label class="labelFor" for="checkbox-one"></label>
+                </div>
+                <div class="form-block">
+                    <input name="answerTwo" placeholder="Ответ 2" class="question-input">
+                    <input type="checkbox" id="checkbox-two" class="checkbox" />
+                    <label class="labelFor" for="checkbox-two">
+                </div>
+                <div class="form-block">
+                    <input name="answerThree" placeholder="Ответ 3" class="question-input">
+                    <input type="checkbox" id="checkbox-three" class="checkbox" />
+                    <label class="labelFor" for="checkbox-three">
+                </div>
+            </form>
+            <button class="btn-record btn">Записать вопрос</button>
+        </div>
+    </main>
+    <script src="../script/questionCreate.js"></script>
+</body>
+
+</html>

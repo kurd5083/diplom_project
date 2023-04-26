@@ -1,0 +1,111 @@
+body {
+    color: #424242;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+.header {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+    width: 100%;
+    padding: 10px 40px;
+    margin: auto;
+    padding-bottom: 0;
+}
+
+.block {
+    position: absolute;
+    width: 100%;
+    top: 90px;
+    height: 3px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 1px 3px;
+}
+
+.menu-list {
+    display: flex;
+    align-items: center;
+}
+
+.menu-list li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.menu-list a {
+    color: #424242;
+    text-decoration: none;
+}
+
+.btn-entrance {
+    margin-left: 50px;
+    box-sizing: border-box;
+    background-color: #f05f50;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    font-size: 18px;
+    width: 120px;
+}
+
+.heading {
+    width: 100%;
+    text-align: center;
+}
+.form {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    max-width: 1300px;
+    width: 100%;
+    margin: 50px auto;
+}
+
+.form p {
+    text-align: center;
+    font-size: 24px;
+}
+
+.form .imgCat { 
+    width: 150px;
+}
+
+.line {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 25px;
+
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.btn-pass-delet {
+    background-color: #f05f50;
+    color: #fff;
+    border: none;
+    padding: 6px 7px;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 70px;
+}
+.list-test {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    max-width: 1300px;
+    width: 100%;
+    padding: 0px 40px;
+}
+
+.img-pass-delet {
+    width: 35px;
+    height: 35px;
+}
